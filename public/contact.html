@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EduSphere | Contact</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container navbar">
+        <a href="/" class="brand" aria-label="EduSphere home">
+          <span class="brand-badge">Es</span>
+          EduSphere
+        </a>
+        <nav class="nav-links" aria-label="Primary">
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+          <a href="/contact" class="active">Contact</a>
+          <a href="/#programs">Programs</a>
+          <a href="/#testimonials">Success Stories</a>
+        </nav>
+        <a class="btn btn-primary" href="tel:+14085551234">Call us</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-banner">
+        <div class="container">
+          <h1>Let’s design the future of learning together</h1>
+          <p>
+            Whether you manage academic programs, lead workforce development, or want to reskill your team, our specialists
+            are ready to help.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-hero">
+          <h2>Talk with a learning strategist</h2>
+          <p>
+            Share your goals, timelines, and audience. We will recommend a tailored solution and demo what EduSphere can
+            do for your learners.
+          </p>
+          <div class="hero-actions is-centered">
+            <a class="btn btn-primary" href="mailto:hello@edusphere.io">Email us</a>
+            <a class="btn btn-secondary" href="tel:+14085551234">Schedule a call</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-label="Contact details and form">
+        <div class="container contact-grid">
+          <article class="contact-card">
+            <h3>Our team</h3>
+            <p>
+              We respond within one business day. For urgent inquiries, message us via phone for immediate support.
+            </p>
+            <ul class="contact-list">
+              <li>
+                <span>General inquiries</span>
+                <span><a href="mailto:hello@edusphere.io">hello@edusphere.io</a></span>
+              </li>
+              <li>
+                <span>Partnerships</span>
+                <span><a href="mailto:partners@edusphere.io">partners@edusphere.io</a></span>
+              </li>
+              <li>
+                <span>Phone</span>
+                <span><a href="tel:+14085551234">+1 (408) 555-1234</a></span>
+              </li>
+              <li>
+                <span>Headquarters</span>
+                <span>250 Market Street, Suite 240, San Francisco, CA</span>
+              </li>
+            </ul>
+          </article>
+
+          <article class="form-card">
+            <h3>Share your project</h3>
+            <form action="https://formspree.io/f/mwkzpwjo" method="post">
+              <label for="name">Full name</label>
+              <input id="name" name="name" type="text" placeholder="Jane Doe" required />
+
+              <label for="email">Work email</label>
+              <input id="email" name="email" type="email" placeholder="jane@example.edu" required />
+
+              <label for="organization">Organization</label>
+              <input id="organization" name="organization" type="text" placeholder="Your institution or company" />
+
+              <label for="interest">Area of interest</label>
+              <select id="interest" name="interest">
+                <option value="curriculum">Curriculum design</option>
+                <option value="training">Team upskilling</option>
+                <option value="mentorship">Mentorship programs</option>
+                <option value="platform">Platform licensing</option>
+                <option value="other">Other</option>
+              </select>
+
+              <label for="message">How can we help?</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell us about your objectives"></textarea>
+
+              <button class="btn btn-primary" type="submit">Send message</button>
+            </form>
+          </article>
+
+          <article class="faq-card">
+            <h3>Frequently asked</h3>
+            <div class="faq-list">
+              <div class="faq-item">
+                <h4>Do you offer custom curriculum design?</h4>
+                <p>Yes. Our learning architects partner with subject matter experts to create bespoke programs.</p>
+              </div>
+              <div class="faq-item">
+                <h4>Can EduSphere integrate with our LMS?</h4>
+                <p>
+                  We support LTI, SCORM, and API-based integrations with leading learning platforms and HRIS systems.
+                </p>
+              </div>
+              <div class="faq-item">
+                <h4>How soon can we launch?</h4>
+                <p>
+                  Discovery to launch typically takes 4-6 weeks depending on content readiness and customization scope.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <h3>EduSphere</h3>
+            <p>
+              Delivering equitable access to future-ready education through immersive experiences, guiding mentorship,
+              and data-informed insights.
+            </p>
+          </div>
+          <div>
+            <h4>Explore</h4>
+            <div class="footer-links">
+              <a href="/">Home</a>
+              <a href="/about">Our Story</a>
+              <a href="/#programs">Programs</a>
+              <a href="mailto:partners@edusphere.io">Become a partner</a>
+            </div>
+          </div>
+          <div>
+            <h4>Support</h4>
+            <div class="footer-links">
+              <a href="mailto:support@edusphere.io">support@edusphere.io</a>
+              <a href="tel:+14085551234">+1 (408) 555-1234</a>
+              <a href="https://status.edusphere.io" target="_blank" rel="noreferrer">Service status</a>
+              <a href="https://resources.edusphere.io" target="_blank" rel="noreferrer">Resource hub</a>
+            </div>
+          </div>
+        </div>
+        <p class="footer-note">© <span id="year">2025</span> EduSphere Learning, Inc. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      const yearElement = document.getElementById("year");
+      if (yearElement) {
+        yearElement.textContent = new Date().getFullYear().toString();
+      }
+    </script>
+  </body>
+</html>
