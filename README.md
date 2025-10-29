@@ -17,7 +17,7 @@ A comprehensive education website built with Node.js and Express, featuring a mo
 - Node.js (v14 or higher)
 - npm or yarn package manager
 
-### Installation
+####Installation
 
 1. **Clone the repository**
    ```bash
@@ -155,6 +155,7 @@ The contact form uses Formspree for handling submissions:
 <img width="833" height="416" alt="image" src="https://github.com/user-attachments/assets/7c8dfbba-c279-4de1-878d-7b40de83081c" />
 <img width="826" height="411" alt="image" src="https://github.com/user-attachments/assets/d68aced1-a606-4283-ad62-f1a66d504b2d" />
 <img width="826" height="426" alt="image" src="https://github.com/user-attachments/assets/602fe265-9850-40ec-a2c6-42a02a45425a" />
+
 
 
 
