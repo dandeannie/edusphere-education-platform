@@ -124,7 +124,7 @@ The website features a cohesive design system with:
 
 The contact form uses Formspree for handling submissions:
 
-1. Sign up at [formspree.io](https://formspree.io)
+1. Sign up 
 2. Create a new form endpoint
 3. Replace the form action URL in `contact.html`:
    ```html
@@ -139,17 +139,6 @@ The contact form uses Formspree for handling submissions:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙋‍♂️ Support
-
-For questions or support:
-- Email: hello@edusphere.io
-- Phone: +1 (408) 555-1234
-- Create an issue in this repository
-
 ## 🎯 Roadmap
 
 - [ ] User authentication system
@@ -162,4 +151,10 @@ For questions or support:
 ---
 
 **Built with ❤️ for modern education** | 
+
+<img width="833" height="416" alt="image" src="https://github.com/user-attachments/assets/7c8dfbba-c279-4de1-878d-7b40de83081c" />
+<img width="826" height="411" alt="image" src="https://github.com/user-attachments/assets/d68aced1-a606-4283-ad62-f1a66d504b2d" />
+<img width="826" height="426" alt="image" src="https://github.com/user-attachments/assets/602fe265-9850-40ec-a2c6-42a02a45425a" />
+
+
 
